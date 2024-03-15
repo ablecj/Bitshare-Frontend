@@ -1,0 +1,22 @@
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+}
+
+.home :hover{
+    color: rgb(119, 229, 192);
+}
+
+
