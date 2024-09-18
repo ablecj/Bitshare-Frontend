@@ -48,6 +48,7 @@ const Page = () => {
     })
 
     let data = await res.json();
+      console.log(data, 'data from the sendotp" )
     if(data.ok){
       toast.success(data.message);
       setSendingOtp(false);
