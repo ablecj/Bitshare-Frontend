@@ -113,6 +113,7 @@ const Page = () => {
           {
             !sendingOtp ? <button 
             onClick={handleOtp}
+            type="button"
             >Send OTP</button> 
             : <button
               style={{
